@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "ringover",
     "name": "ringover",
     "slug": "ringover",
     "version": "1.0.0",
@@ -24,10 +25,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.ringover.ringover"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b60db7ed-2515-41c6-a796-f07aa292e1a6"
+      }
     }
   }
 }
